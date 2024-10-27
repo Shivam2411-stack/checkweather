@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" href="drizzle.png" type="image/x-icon">
+</head>
+<body>
+<!--     <script src="script.js"></script> -->
+    <main>
+        <div id="card">
+            <div id="search">
+                <input type="text" name="city" id="search-city"  placeholder="Search by city">
+                <button type="button" id="srcbtn"><img src="search-logo.png" alt="search-logo"></button>
+            </div>
+            <div id="weather">
+                <img src="drizzle.png" alt="weather-icon" id="weather-icon">
+                <h1 id="temp">22&deg;C</h1>
+                <h2 id="city">New Delhi</h2>
+                <h5 id="type"></h5>
+                <div id="details">
+                    <div id="col">
+                        <img src="humid.png" alt="humidity">
+                        <div id="humid-data">
+                            <p id="humi">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                        <div id="col">
+                            <img src="wind.png" alt="">
+                            <div id="wind-data">
+                                <p id="Speed">15km/h</p>
+                                <p>Wind Speed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </main>
+</body>
+<script src="script.js">
+</script>
+</html>
